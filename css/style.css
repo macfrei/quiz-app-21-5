@@ -1,2 +1,6 @@
 @import '_base.css';
 @import './components/card.css';
+@import './components/tags.css';
+@import './components/app-grid.css';
+@import './components/main.css';
+@import './components/nav.css';
