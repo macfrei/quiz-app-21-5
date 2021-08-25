@@ -7,11 +7,43 @@
     <title>Quiz App</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
-    <header></header>
-    <main>
+  <body class="app-grid">
+    <h1 class="app-grid__heading">Quiz App</h1>
+    <main class="main">
       <section class="card">
-        <button class="card__bookmark">Bookmark</button>
+        <button class="card__bookmark card__bookmark--active"></button>
+        <h2 class="card__question">What is BEM?</h2>
+        <button class="card__button">Show answer</button>
+        <p class="card__answer card__answer--hidden">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse amet
+          eligendi dignissimos nam, consectetur repellat? Ipsam, totam porro.
+          Placeat, quae cupiditate deleniti veritatis in autem expedita
+          voluptate vero nisi hic?
+        </p>
+        <ul class="tags">
+          <li class="tags__item">BEM</li>
+          <li class="tags__item">CSS</li>
+          <li class="tags__item">Structure</li>
+        </ul>
+      </section>
+      <section class="card">
+        <button class="card__bookmark"></button>
+        <h2 class="card__question">What is BEM?</h2>
+        <button class="card__button">Show answer</button>
+        <p class="card__answer card__answer--hidden">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse amet
+          eligendi dignissimos nam, consectetur repellat? Ipsam, totam porro.
+          Placeat, quae cupiditate deleniti veritatis in autem expedita
+          voluptate vero nisi hic?
+        </p>
+        <ul class="tags">
+          <li class="tags__item">BEM</li>
+          <li class="tags__item">CSS</li>
+          <li class="tags__item">Structure</li>
+        </ul>
+      </section>
+      <section class="card">
+        <button class="card__bookmark"></button>
         <h2 class="card__question">What is BEM?</h2>
         <button class="card__button">Show answer</button>
         <p class="card__answer card__answer--hidden">
@@ -27,6 +59,11 @@
         </ul>
       </section>
     </main>
-    <footer></footer>
+    <nav class="nav">
+      <a class="nav__link" href="">Home</a>
+      <a class="nav__link" href="">Bookmark</a>
+      <a class="nav__link" href="">Create</a>
+      <a class="nav__link" href="">Profile</a>
+    </nav>
   </body>
 </html>
