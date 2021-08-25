@@ -1,0 +1,14 @@
+.app-grid {
+  display: grid;
+  grid-template-rows: 60px auto 60px;
+  height: 100vh;
+}
+
+.app-grid__heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: navy;
+  color: white;
+  margin: 0;
+}
