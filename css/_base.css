@@ -7,5 +7,6 @@ html {
 }
 
 body {
-  background-color: hotpink;
+  font-family: sans-serif;
+  margin: 0;
 }
