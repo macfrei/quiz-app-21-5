@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="app-grid">
+    <h1 class="app-grid__heading">Quiz App - Create</h1>
+    <main class="main">
+      <form class="form">
+        <label class="form__label">
+          Add your question:
+          <input
+            class="form__input"
+            type="text"
+            id="question"
+            name="question"
+          />
+        </label>
+        <label class="form__label">
+          Add your answer:
+          <textarea
+            class="form__input"
+            name="answer"
+            id="answer"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </label>
+        <label class="form__label">
+          Add some tags:
+          <input class="form__input" type="text" name="tags" id="tags" />
+        </label>
+        <button class="form__submit">Submit</button>
+      </form>
+    </main>
+    <nav class="nav">
+      <a class="nav__link" href="./index.html">Home</a>
+      <a class="nav__link" href="./bookmark.html">Bookmark</a>
+      <a class="nav__link nav__link--active" href="./create.html">Create</a>
+    </nav>
+  </body>
+</html>

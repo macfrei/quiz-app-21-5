@@ -1,0 +1,26 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+}
+
+.form__label {
+  display: grid;
+  grid-gap: 12px;
+}
+
+.form__input {
+  padding: 8px;
+  font-size: inherit;
+}
+
+.form__submit {
+  padding: 8px;
+  background-color: steelblue;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  font-size: inherit;
+  align-self: flex-end;
+}
